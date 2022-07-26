@@ -1,0 +1,138 @@
+            @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Urbanist:wght@100&display=swap'); 
+            .customnav-light{
+                height: 8vh;
+                width:  100vw;
+                background-color: white;
+                color: black;
+            }
+
+            .customnav-dark{
+                height: 8vh;
+                width:  100vw;
+                background-color: #142634;
+                color: white;
+             }
+
+            
+            .navcntxt-light{
+            color: black;
+            font-size: large;
+            letter-spacing: 0.1em; 
+            
+            }
+            .navcntxt-dark{
+            color: white;
+            font-size: large;
+            letter-spacing: 0.1em; 
+            font-family: 'Urbanist', sans-serif;
+           
+            }
+            
+            
+            
+            .navcontainer{
+                padding-top: 7px;
+                display: flex;
+            }
+            .bars{
+                margin-top: 0px;
+                margin-left: 13px;
+                margin-right: 11px;
+                margin-bottom: 2px;
+            }
+            .navcntxtlow-light{
+                
+                margin-top: 5px;
+                margin-left: 33px;
+                font-size: small;
+                color: black;
+                text-decoration: none;
+                letter-spacing: 0.1em; 
+                
+                transition: transform .2s;
+            }
+            .navcntxtlow-dark{
+                
+                margin-top: 5px;
+                margin-left: 33px;
+                font-size: small;
+                color: white;
+                text-decoration: none;
+                letter-spacing: 0.1em; 
+                font-family: 'Urbanist', sans-serif;
+                transition: transform .2s;
+            }
+            .navcntxtlow-dark:hover{
+                color: white;
+                transform: scale(1.1);
+            }
+            .navcntxtlow-light:hover{
+                color: black;
+                transform: scale(1.1);
+            }
+           
+           .navinput{
+               border: none;
+           }
+           #rightbox,#rightbox:hover{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin-left:890px;
+           }
+          
+          
+           .navlink {
+            text-decoration: none;
+            margin-left: 7px;
+          }
+          .navlink:hover{
+              color: wheat;
+          }
+         @media only screen and (max-width: 400px){
+             .customnav-dark,.customnav-light{
+                 height: 6vh;
+                 
+             }
+             .navcontainer{
+                 display: flex;
+                 padding: 4px;
+                
+             }
+             .navcntxt-light,.navcntxt-dark{
+               display: none;
+               margin:0px;
+
+             }
+             .logo{
+                padding: 3px;
+                margin: 0px;
+             }
+             .navcntxtlow-dark,.navcntxtlow-light{
+                 margin: 0 1 0 0px;
+                 font-size: 10px;
+             }
+             .navlink{
+                 font-size: 10px;
+                 margin: 6px 3px 1px 1px;
+             }
+             #rightbox{
+                 display: flex;
+                 height: 20px;
+                 width: 10px;
+                 margin: 9px 0 0 120px;
+                 
+
+             }
+             #modename{
+                 display: none;
+             }
+             .checker{
+                 font-size: 13px;
+              }
+              .badges{
+                  size: 4px;
+              }
+
+         }
+         
